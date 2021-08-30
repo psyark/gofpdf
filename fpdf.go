@@ -2361,7 +2361,7 @@ func (f *Fpdf) CellFormat(w, h float64, txtStr, borderStr string, ln int,
 			op = "S"
 		}
 		/// dbg("(CellFormat) f.x %.2f f.k %.2f", f.x, f.k)
-		s.printf("%.2f %.2f %.2f %.2f re %s ", f.x*k, (f.h-f.y)*k, w*k, -h*k, op)
+		s.printf("%.2f %.2f %.2f %.2f re %s ", f.x*k+3, (f.h-f.y)*k, w*k, -h*k, op)
 	}
 	if len(borderStr) > 0 && borderStr != "1" {
 		// fmt.Printf("border is '%s', no fill\n", borderStr)
