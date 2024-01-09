@@ -9,7 +9,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/raykov/gofpdf"
+	"github.com/psyark/gofpdf"
 )
 
 func report(fileStr string, err error) {

@@ -1,4 +1,4 @@
-module github.com/raykov/gofpdf
+module github.com/psyark/gofpdf
 
 go 1.16
 

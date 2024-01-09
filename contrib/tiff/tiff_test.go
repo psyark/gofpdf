@@ -1,9 +1,9 @@
 package tiff_test
 
 import (
-	"github.com/raykov/gofpdf"
-	"github.com/raykov/gofpdf/contrib/tiff"
-	"github.com/raykov/gofpdf/internal/example"
+	"github.com/psyark/gofpdf"
+	"github.com/psyark/gofpdf/contrib/tiff"
+	"github.com/psyark/gofpdf/internal/example"
 )
 
 // ExampleRegisterFile demonstrates the loading and display of a TIFF image.

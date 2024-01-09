@@ -32,9 +32,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/raykov/gofpdf"
-	"github.com/raykov/gofpdf/internal/example"
-	"github.com/raykov/gofpdf/internal/files"
+	"github.com/psyark/gofpdf"
+	"github.com/psyark/gofpdf/internal/example"
+	"github.com/psyark/gofpdf/internal/files"
 )
 
 func init() {

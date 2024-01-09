@@ -3,8 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/raykov/gofpdf"
 	"os"
+
+	"github.com/psyark/gofpdf"
 )
 
 func errPrintf(fmtStr string, args ...interface{}) {
